@@ -8,3 +8,4 @@ This repo is aimed at logging those mistakes as a resource for new engineers.
 
 - 4/13/22: A small error in some conditional logic I wrote caused hours of debugging for myself and two colleagues 
 - 6/30/22: I discovered that a spec of Cypress tests I had written were failing in CI because did not stub the data at all and allowed the tests to rely on production data, which obviously changed
+- 8/9/22: A feature I wrote didn't provide fallbacks for some API data if it was null, resulting in images being size 0px * 0px in production
